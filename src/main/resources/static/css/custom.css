@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.index {
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    overflow:hidden;
+    /*noinspection CssUnknownTarget*/
+    background-image: url("/images/background.jpg") no-repeat center center fixed;
+    color:#f1f1f1;
+    width: 43%;
+    padding: 20px;
+    }
+
+.space {
+    margin-bottom: 100px;
+}
+
+.row {
+    margin-top: 50px;
+}
+#parent {height: 250px;}
+#floater {
+    float: left;
+    height: 50%;
+    width: 100%;
+    margin-bottom: -50px;
+}
+#child {
+    clear: both;
+    height: 100px;
+    color: lightyellow;
+    text-align: center;
+}
+
+#logo {
+    font-family: 'Open Sans', sans-serif;
+ }
